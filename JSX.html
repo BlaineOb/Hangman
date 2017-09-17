@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="MyStyle.css">
+<style>
+.image {
+  display: flex;
+  justify-content: center;
+}
+</style>
+  <title>Hangman</title>
+  <script type="text/javascript" src ="JSX.js"></script>		
+<body>
+
+  <font size="20" face="arial">
+  <div class="left" id="left">
+  <script type="text/javascript">
+  	setAnswer();
+  	initializeWord();
+  	updateWord();
+  </script>
+  </div>
+  </font>
+  
+  <div id="center">
+  
+  <h1 id="title" style="text-align:center">
+  <font size="15" face="arial">HANGMAN</font>
+  </h1>
+  
+  <img class="currStep" id="currStep" src="step0.png" alt="Hangman Window" 
+  style="width:400px;height:350px;">
+ 
+  <h2 id="container1" style="text-align:center">
+  <input type="text" id="textBox" />
+  <input type="submit" value="Make Guess" onclick="clickEvent();" />
+  </h2>
+
+  </div>
+  
+  <font size="20" face="arial">
+  <div class="right" id="right">
+  </div>
+  </font>
+</body>
+</html>
+
+
+
+
+  

@@ -1,0 +1,30 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+div {
+    height: 100%;
+    background-color: #00ffff0112222;
+    float: left;
+}
+img.currStep {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#left {
+	padding: 150px 0;
+    width:750px;
+    margin: 0px;
+    text-align: center;
+}
+#center {
+    margin: 5px 0;
+    width: calc(100% - 1500px);
+}
+#right {
+    padding: 150px 0;
+    width:750px;
+    margin: 0px;
+    text-align: center;
+}
